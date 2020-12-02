@@ -1,5 +1,5 @@
 # Part 1
-
+input_data = open('input.txt')
 input_list = []
 for item in input_data.read().split("\n"):
     input_list.append((item.split(' ')[0].split('-')[0], item.split(' ')[0].split('-')[1], item.split(' ')[1].replace(':', ''), item.split(' ')[2]))
