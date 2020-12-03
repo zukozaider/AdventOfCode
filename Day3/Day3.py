@@ -1,7 +1,7 @@
 ## Part 1
 
 def func(step_x, step_y):
-    data = open("/content/drive/MyDrive/Datasets/AdventOfCode/trees.txt").read().split("\n")
+    data = open("input.txt").read().split("\n")
     trees = []
     for i in data:
         trees.append(i.replace("[',\,]", ''))
